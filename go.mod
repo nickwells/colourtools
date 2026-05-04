@@ -5,19 +5,19 @@ go 1.26.0
 require (
 	github.com/nickwells/check.mod/v2 v2.1.29
 	github.com/nickwells/colour.mod/v2 v2.4.2
-	github.com/nickwells/coloursetter.mod/v2 v2.1.6
+	github.com/nickwells/coloursetter.mod/v2 v2.1.7
 	github.com/nickwells/testhelper.mod/v2 v2.6.1
-	github.com/nickwells/verbose.mod v1.1.21
-	github.com/nickwells/versionparams.mod v1.2.25
+	github.com/nickwells/verbose.mod v1.1.22
+	github.com/nickwells/versionparams.mod v1.2.26
 )
 
 require (
 	github.com/nickwells/col.mod/v6 v6.1.1
-	github.com/nickwells/groupsetter.mod v1.0.5
+	github.com/nickwells/groupsetter.mod v1.0.6
 	github.com/nickwells/location.mod v1.2.37
 )
 
-require github.com/nickwells/param.mod/v7 v7.2.1
+require github.com/nickwells/param.mod/v7 v7.2.2
 
 require (
 	github.com/nickwells/english.mod v1.2.10
