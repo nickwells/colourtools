@@ -147,11 +147,7 @@ func (prog *prog) colourNameReport() {
 		col.New(&colfmt.String{W: prog.maxColourNameLen()}, "colours"))
 
 	rpt := col.StdRpt(
-		col.New(
-			&colfmt.String{
-				W:       prog.maxFamilyNameLen(),
-				DupHdlr: colfmt.DupHdlr{SkipDups: true},
-			},
+		col.New(&colfmt.String{W: prog.maxFamilyNameLen(), SkipDups: true},
 			"family", "name"),
 		cols...)
 
@@ -183,11 +179,7 @@ func (prog *prog) standardReport() {
 	)
 
 	rpt := col.StdRpt(
-		col.New(
-			&colfmt.String{
-				W:       prog.maxFamilyNameLen(),
-				DupHdlr: colfmt.DupHdlr{SkipDups: true},
-			},
+		col.New(&colfmt.String{W: prog.maxFamilyNameLen(), SkipDups: true},
 			"family", "name"),
 		cols...)
 
