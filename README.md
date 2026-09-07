@@ -6,3 +6,10 @@
 
 # colourtools
 various commands for operating with colours
+## colourFamily
+
+[See here](colourFamily/_colourFamily.DOC.md)
+Add the following lines to the README.md file (if not already present).
+## colourShow
+
+[See here](colourShow/_colourShow.DOC.md)
